@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(to right, #f3a7d6, #a7d6f3);
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+  
+  .labels {
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bebe0af8;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+  }
+  
+  .frame {
+    margin: auto;
+    padding: 5px 0px;
+    width: 56px;
+    border: 2px solid #e2d409;
+  }
+  
+  .btn {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f5f4f4;
+    color: #e682e6;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    border: 0px;
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  .btn-rounded {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .fa {
+    font-size: 14px;
+  }
+  
+  .flipx {
+    transform: scaleX(-1);
+  }
+  
+  #score {
+    margin-top: 5px;
+  }
+  
+  #outer-board {
+    width: 365px;
+    margin: auto;
+  }
+  
+  #board {
+    float: left;
+    position: relative;
+    background-color: #b4e7e5;
+    width: 280px;
+    height: 448px;
+    margin: 10px auto;
+    border: 2px solid #4dd19e;
+  }
+  
+  #stats {
+    float: right;
+    position: relative;
+    background-color: #caa3db;
+    width: 70px;
+    height: 448px;
+    margin: 10px auto;
+    border: 2px solid #d384cc;
+  }
+  
+  #banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    background-color: rgb(133, 216, 170);
+    color: #e20cd0;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  #message {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin: 10px;
+    margin-top: 20px;
+  }
+  
+  #new-game {
+    font-weight: 100;
+    cursor: pointer;
+  }
+  
+  .block,
+  .empty {
+    position: absolute;
+    background-color: #cbafd8;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .empty {
+    opacity: 0.2;
+  }
+  
+  .inner-tile {
+    position: absolute;
+    background-color: #d8b30f;
+    border: 4px solid #cabf1d;
+    width: 14px;
+    height: 14px;
+    margin: 3px;
+  }
+  
+  .inner-inner-tile {
+    position: absolute;
+    background-color: rgb(238, 223, 12);
+    width: 8px;
+    height: 8px;
+    margin: 3px;
+  }
